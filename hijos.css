@@ -1,0 +1,169 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(technology-background-tehuih7a9zxisdj9.jpg);
+    color: #333;
+    text-align: justify-all;
+}
+.titulos{
+    color: whitesmoke;
+    margin: 2%
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header h1 {
+    float: left;
+    font-size: 2rem;
+}
+
+.nav-links {
+    float: right;
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* contenedor de bienvenida */
+.bienvenido {
+    background: url(depositphotos_18301233-stock-illustration-abstract-grey-technology-business-banner.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    padding-bottom: 10%;
+    border-radius: 30px;
+  padding-top: 8%
+}
+
+.bienvenido h2 {
+    font-size: 3rem;
+    margin-bottom: 1%;
+}
+
+.nserv {
+    background: #333;
+    color: #fff;
+    padding: 2%;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.contenedor1{
+    margin-left: 5%;
+    margin-right:5%;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-top: -5%;
+    
+}
+
+
+
+
+/* Servicios */
+.services, .products, .contact {
+    padding: 2rem 0;
+}
+
+.service-cards, .product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card, .product {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(33.333% - 2rem);
+    background: url(depositphotos_18301233-stock-illustration-abstract-grey-technology-business-banner.jpg) no-repeat center center/cover;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contaco*/
+.contact form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+    margin-top: 10%
+}
+
+
+.contact input, .contact textarea {
+    margin-bottom: 1%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.btn:hover {
+    background: #555;
+    margin-right: 30%;
+    margin-left: 30%;
+     
+}
+.btn{
+    margin-right: 30%;
+    margin-left: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+        border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+/* footer*/
+
+.reservados{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rm 0;
+}
+.ancla{
+margin-left: 40%;
+    width: 200px
+}
+.torinuv{
+    width: 300px;
+    margin-left: 80%;
+    margin-bottom: 2%;
+}
